@@ -1,9 +1,11 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 
+import { MatButtonModule } from '@angular/material/button';
+
 @Component({
   selector: 'app-contents',
-  imports: [],
+  imports: [MatButtonModule],
   templateUrl: './contents.component.html',
   styleUrl: './contents.component.scss'
 })
